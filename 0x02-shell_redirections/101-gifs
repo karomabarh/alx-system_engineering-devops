@@ -1,0 +1,2 @@
+#!/bin/bash
+find -type f -name "*.gti" | rev cut -d "/" -f | cut -d '.' | rev LC_ALL=C sort -f
